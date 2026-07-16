@@ -13,7 +13,7 @@ info:
   # Site title
   title: Hhhjt Blog
   # Site subtitle
-  subtitle: 记录技术与生活
+  subtitle: Hello World
   # Author name
   author: Hhhjt
   # Site URL
@@ -307,7 +307,8 @@ articles:
   author_label: 
     enable: true # Whether to enable
     auto: false # Whether to automatically add author label, e.g. Lv1, Lv2, Lv3...
-    list: []
+    list: 
+      - 世界大无边,山高海又深
   # Code block settings
   code_block:
     copy: true # Whether to enable code block copy button
@@ -432,13 +433,9 @@ footer:
 # INJECT >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/inject
 inject:
-  # Whether to enable inject
-  enable: false
-  # Inject custom head html code
-  head: 
-    -
-    -
-  # Inject custom footer html code
+  enable: true
+  head:
+    - '<style>.footer > .info-container > div.relative.text-center.lg\:absolute.lg\:left-\[20px\] { display: none; }</style>'
   footer:
     -
     -
