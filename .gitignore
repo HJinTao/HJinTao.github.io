@@ -1,0 +1,32 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+_multiconfig.yml
+docs/superpowers/
+
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local Hexo data and deployment credentials
+.deploy_git/
+.vercel/
+.netlify/
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+README.md
+AGENTS.md
