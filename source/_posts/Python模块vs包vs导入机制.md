@@ -4,7 +4,7 @@ date: 2026-09-21 15:30:11
 tags:
   - Python
 categories:
-  - 开发笔记
+  - 开发日记
 excerpt: 梳理 Python 模块、包与导入机制，解析 sys.path、sys.modules、循环导入及不同运行方式带来的常见问题。
 ---
 
